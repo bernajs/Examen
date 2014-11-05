@@ -1,0 +1,260 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('fonts/icomoon.eot?872fmo');
+	src:url('fonts/icomoon.eot?#iefix872fmo') format('embedded-opentype'),
+		url('fonts/icomoon.woff?872fmo') format('woff'),
+		url('fonts/icomoon.ttf?872fmo') format('truetype'),
+		url('fonts/icomoon.svg?872fmo#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-instagram:before {
+	content: "\e600";
+}
+.icon-heart:after {
+	content: "\e601";
+}
+.icon-heart2:before {
+	content: "\e602";
+}
+.icon-facebook:before {
+	content: "\e603";
+}
+.icon-twitter:before {
+	content: "\e604";
+}
+.icon-heart3:before {
+	content: "\e605";
+}
+.icon-heart4:before {
+	content: "\e606";
+}
+
+.timer{
+	float: right;
+	margin: 0;
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: DodgerBlue;
+}
+body{
+	font-family: "Open Sans";
+	font-size: 16px;
+	background: #FBF1F1;
+}
+
+.u-title{
+	border-top: gray dashed;
+	color: gray;
+	margin: 1em;
+	padding-top: .5em;
+}
+
+/*	Header	*/
+
+
+.header{
+	margin-top: 3.85em;
+	background-image: url('portada.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#contenedor{
+	width: 960px;
+	margin: 0 auto;
+	border: solid 1px lightgray;
+}
+
+.header-avatar{
+	border-radius: 20%;
+}
+
+.header-avatar:hover{
+	-webkit-transition:.5s;
+	-webkit-transform:scale(1.05 , 1.05);
+}
+
+.header-link{
+	text-decoration: none;
+	color: lightcoral;
+}
+
+.MainMenu-link:hover{
+	text-decoration: none;
+	padding: 1.20em;
+	border-radius: 1em;
+	background: LightSkyBlue;
+	-webkit-transition:.3s;	
+}
+
+.MainMenu-item1{
+	float: right;
+	margin: 0;
+	display: inline-block;
+}
+
+.header-link{
+	text-decoration: none;
+	color: DodgerBlue;
+}
+.header-name{
+	color: DodgerBlue;
+	font-size: .5em;
+	margin: 0;
+	padding-bottom: 1em;
+	display: inline-block;
+}
+
+.header-name:hover{
+	color: gray;
+}
+
+.header-link:hover{
+
+}
+.header-imageContainer{
+	text-align: center;
+	font-size: 2em;
+	margin: 0;
+}
+
+.MainMenu{
+	background: gray;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 3.75em;
+}
+.MainMenu-item{
+	display: inline-block;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-left: solid lightgray 1px;
+}
+
+.MainMenu-item:last-child{
+	border-right: solid lightgray 1px;
+}
+.MainMenu-link{
+	text-decoration: none;
+	color: DodgerBlue;;
+}
+
+.MainMenu-list{
+	margin: 0;
+	line-height: 3.75em;
+}
+
+/*	Perfil	*/
+#perfil{
+	text-align: center;
+}
+.perfil-link{
+	border-radius: 2em;
+	background: gray;
+	color: DodgerBlue;
+	text-decoration: none;
+	border: 4em;
+	padding: .5em 1em;
+}
+
+.icon-facebook:hover{
+	background: #3B5998;
+	-webkit-transition:.3s;	
+}
+
+.icon-twitter:hover{
+	background: #4099FF;
+	-webkit-transition:.3s;	
+}
+
+.icon-instagram:hover{
+	background: #3F729B;
+	-webkit-transition:.3s;	
+}
+
+/*	Trabajo	*/
+.trabajo{
+	text-align: center;
+}
+
+.trabajo-article{
+	display: inline-block;
+	margin: 2em;
+	border: dotted lightgray;
+	margin-top: 0;
+}
+
+.trabajo-image:hover{
+	-webkit-transition:.5s;
+	-webkit-transform:scale(1.05 , 1.05);
+}
+
+/*	Footer	*/
+footer{
+	text-align: center;
+	background-image: url('footer.jpg');
+	overflow: hidden;
+}
+.contacto-form{
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	vertical-align: top;
+}
+
+.footer-left{
+	display: inline-block;
+	margin: 0;	
+}
+
+.footer-title{
+	color: gray;
+}
+
+.contacto-textArea{
+	border:none;
+	border-radius: 1em;
+	display: block;
+	margin: 1em;
+	padding: .5em 1em;
+}
+.contacto-input{
+	border:none;
+	border-radius: 1em;
+	display: block;
+	margin: 1em;
+	padding: .5em;
+}
+
+.contacto-button{
+	border: none;
+	border-radius: 1em;
+	padding: .5em 1em;
+	background: gray;
+}
